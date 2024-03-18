@@ -1,0 +1,72 @@
+* {
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+  color-scheme: dark;
+  scrollbar-color: #ccc transparent;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="checkbox"],
+button {
+  margin-bottom: 10px;
+  padding: 12px 8px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #cccccc5d;
+  accent-color: #cccccc5d;
+}
+.heading {
+  text-align: center;
+  font-size: 3rem;
+}
+.book-card {
+  border: 1px solid #cccccc5d;
+  padding: 10px 26px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+}
+.flex {
+  display: flex;
+}
+.w-full {
+  width: 100%;
+}
+button {
+  background: white;
+  color: black;
+  cursor: pointer;
+  margin: 0 2px;
+  width: full;
+
+  &:active {
+    scale: 0.95;
+  }
+}
+.remove-btn {
+  background: rgb(207, 59, 59) !important;
+  color: #fff;
+}
+
+h2 {
+  font-size: 2rem;
+}
